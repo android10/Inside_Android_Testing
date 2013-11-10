@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="10dip"
+        >
+
+
+    <ImageView
+        android:id="@+id/pivotal_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pivotal_tracker_small"
+        android:layout_marginBottom="10dip"
+        />
+
+    <EditText
+            android:id="@+id/username"
+            android:hint="@string/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            />
+
+    <EditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:singleLine="true"
+            />
+
+    <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="@string/sign_in"
+            />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.073" errors="0" skipped="0" tests="5" name="com.pivotallabs.tracker.RecentActivitiesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.51-b01-456"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4508"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample"/>
+    <property name="java.runtime.version" value="1.6.0_51-b11-456-11M4508"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/var/folders/03/jnk_q11d3p1g601yfq7rlg640000gp/T/surefirebooter2934932966551500523.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/03/jnk_q11d3p1g601yfq7rlg640000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample/target/test-classes:/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample/target/classes:/Users/fcejas/.m2/repository/org/roboguice/roboguice/2.0/roboguice-2.0.jar:/Users/fcejas/.m2/repository/com/google/inject/guice/3.0/guice-3.0-no_aop.jar:/Users/fcejas/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/fcejas/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/fcejas/.m2/repository/org/robolectric/robolectric/2.0-alpha-1/robolectric-2.0-alpha-1.jar:/Users/fcejas/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar:/Users/fcejas/.m2/repository/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar:/Users/fcejas/.m2/repository/org/javassist/javassist/3.14.0-GA/javassist-3.14.0-GA.jar:/Users/fcejas/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/fcejas/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/fcejas/.m2/repository/org/apache/httpcomponents/httpclient/4.0.3/httpclient-4.0.3.jar:/Users/fcejas/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/fcejas/.m2/repository/com/google/android/support-v4/r7/support-v4-r7.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar:/Users/fcejas/.m2/repository/org/apache/ant/ant/1.8.0/ant-1.8.0.jar:/Users/fcejas/.m2/repository/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar:/Users/fcejas/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/fcejas/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar:/Users/fcejas/.m2/repository/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar:/Users/fcejas/.m2/repository/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/hamcrest/hamcrest-core/1.2/hamcrest-core-1.2.jar:/Users/fcejas/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/fcejas/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar:/Users/fcejas/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar:/Users/fcejas/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/fcejas/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar:/Users/fcejas/.m2/repository/org/json/json/20080701/json-20080701.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/fcejas"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="fcejas"/>
+    <property name="java.class.path" value="/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample/target/test-classes:/Users/fcejas/Development/Android/RoboelectricSample/RobolectricSample/target/classes:/Users/fcejas/.m2/repository/org/roboguice/roboguice/2.0/roboguice-2.0.jar:/Users/fcejas/.m2/repository/com/google/inject/guice/3.0/guice-3.0-no_aop.jar:/Users/fcejas/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/fcejas/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/fcejas/.m2/repository/org/robolectric/robolectric/2.0-alpha-1/robolectric-2.0-alpha-1.jar:/Users/fcejas/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar:/Users/fcejas/.m2/repository/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar:/Users/fcejas/.m2/repository/org/javassist/javassist/3.14.0-GA/javassist-3.14.0-GA.jar:/Users/fcejas/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/fcejas/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/fcejas/.m2/repository/org/apache/httpcomponents/httpclient/4.0.3/httpclient-4.0.3.jar:/Users/fcejas/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/fcejas/.m2/repository/com/google/android/support-v4/r7/support-v4-r7.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar:/Users/fcejas/.m2/repository/org/apache/ant/ant/1.8.0/ant-1.8.0.jar:/Users/fcejas/.m2/repository/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar:/Users/fcejas/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar:/Users/fcejas/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/Users/fcejas/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar:/Users/fcejas/.m2/repository/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar:/Users/fcejas/.m2/repository/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar:/Users/fcejas/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/fcejas/.m2/repository/org/hamcrest/hamcrest-core/1.2/hamcrest-core-1.2.jar:/Users/fcejas/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/fcejas/.m2/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar:/Users/fcejas/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar:/Users/fcejas/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/fcejas/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar:/Users/fcejas/.m2/repository/org/json/json/20080701/json-20080701.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/var/folders/03/jnk_q11d3p1g601yfq7rlg640000gp/T/surefirebooter2934932966551500523.jar /var/folders/03/jnk_q11d3p1g601yfq7rlg640000gp/T/surefire1819754806237756650tmp /var/folders/03/jnk_q11d3p1g601yfq7rlg640000gp/T/surefire3913361775566764405tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_51"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/fcejas/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_51-456"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.012" classname="com.pivotallabs.tracker.RecentActivitiesTest" name="update_shouldMakeRequest"/>
+  <testcase time="0.012" classname="com.pivotallabs.tracker.RecentActivitiesTest" name="update_shouldCreateRecentActivityObjectsFromResponse"/>
+  <testcase time="0.012" classname="com.pivotallabs.tracker.RecentActivitiesTest" name="update_shouldFireCallbacks_success"/>
+  <testcase time="0.011" classname="com.pivotallabs.tracker.RecentActivitiesTest" name="update_shouldFireCallbacks_failure"/>
+  <testcase time="0.017" classname="com.pivotallabs.tracker.RecentActivitiesTest" name="update_shouldClearExitingItems"/>
+</testsuite>

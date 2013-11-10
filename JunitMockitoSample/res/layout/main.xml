@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/tv_engine"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="10dip"/>
+
+	<TextView
+		android:id="@+id/tv_kilometers"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tv_engine"
+		android:layout_marginTop="10dip"/>
+
+	<TextView
+		android:id="@+id/tv_fuel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tv_kilometers"
+		android:layout_marginTop="10dip"/>
+
+	<Button
+		android:id="@+id/bt_move"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Move car"
+		android:layout_alignParentBottom="true"/>
+
+	<Button
+		android:id="@+id/bt_create"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Create car"
+		android:layout_above="@id/bt_move"/>
+
+</RelativeLayout>
+

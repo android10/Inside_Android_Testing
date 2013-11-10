@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rl_container"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/tv_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="GDG"
+		android:layout_alignParentTop="true"/>
+
+	<TextView
+		android:id="@+id/tv_description"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Heavy metal"
+		android:layout_below="@id/tv_title"/>
+
+	<Button
+		android:id="@+id/bt_launch"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Launch"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Robolectric Sample</string>
+    <string name="tests_rock">Tests Rock!</string>
+    <string name="view_recent_tracker_activity">View Recent Tracker Activity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="error">Error</string>
+    <string name="unknown_user_pass">Username/Password combination is not recognized.</string>
+    <string name="ok">Ok</string>
+    <string name="sign_in">Sign In</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="injected_activity">Roboguice Injected Activity</string>
+    <string name="injected_activity_caption">Roboguice Activity tested with Robolectric</string>
+    <string name="unit_tests_ftw">Unit Tests FTW!!!</string>
+</resources>
