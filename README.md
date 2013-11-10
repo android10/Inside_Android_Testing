@@ -13,4 +13,4 @@ Unfortunately, testing Android apps can be challenging, so in this session we ar
 
 <p><b>Find the presentation [here](http://goo.gl/rj8RYo "How ANDROID TESTING changed how we think about Death.").
 
-![http://www.android10.org/myimages/talk_android_death_testing.png](http://www.android10.org/myimages/talk_android_death_testing.png)
+![How ANDROID TESTING changed how we think about Death](http://www.android10.org/myimages/talk_android_death_testing.png "How ANDROID TESTING changed how we think about Death")
